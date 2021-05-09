@@ -38,3 +38,6 @@ Optional DevDependencies for style:
 3. cssnano: `npm install -D cssnano`
 4. autoprefixer: `npm install -D autoprefixer`
 5. postcss: `npm install -D postcss`
+
+Optional DevDependencies for utils:
+1. gulp-sourcemaps: `npm install -D gulp-sourcemaps`
