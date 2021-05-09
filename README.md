@@ -23,6 +23,7 @@ root project
 |   |--- fonts
 |
 |-- index.html
+|-- gulpfile.js
 |-- package.json
 |-- package-lock.json
 |-- gitignore
