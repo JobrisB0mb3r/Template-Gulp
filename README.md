@@ -43,5 +43,11 @@ Optional DevDependencies for style:
 4. autoprefixer: `npm install -D autoprefixer`
 5. postcss: `npm install -D postcss`
 
+Optional DevDependencies for javascript:
+1. gulp-babel: `npm install -D gulp-babel`
+2. gulp-concat: `npm install -D gulp-concat`
+3. gulp-uglify: `npm install -D gulp-uglify`
+
 Optional DevDependencies for utils:
 1. gulp-sourcemaps: `npm install -D gulp-sourcemaps`
+2. gulp-rename: `npm install -D gulp-rename`
