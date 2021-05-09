@@ -6,6 +6,7 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 // Utils initialize
 const rename = require('gulp-rename');
+const sourcemaps = require('gulp-sourcemaps');
 
 // Defining some path so we can use that in our function
 var jalur = {
@@ -17,9 +18,11 @@ var jalur = {
 
 function styling() {
     return gulp.src(jalur.style.src)
-        .pipe(sass({ outputStyle: 'compressed', sourceMap: 'True' }))
+        .pipe(sourcemaps.init())
+        .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(rename({ suffix: '.min' }))
+        .pipe(sourcemaps.write('.', { includeContent: 'false', sourceRoot: '../resources/scss' }))
         .pipe(gulp.dest(jalur.style.dest));
 }
 
