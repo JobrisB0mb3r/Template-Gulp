@@ -51,3 +51,9 @@ Optional DevDependencies for javascript:
 Optional DevDependencies for utils:
 1. gulp-sourcemaps: `npm install -D gulp-sourcemaps`
 2. gulp-rename: `npm install -D gulp-rename`
+
+**Command for installing all of that Optional DevDependencies:**
+
+``` bash
+npm install --save-dev gulp-sass gulp-postcss cssnano autoprefixer postcss gulp-babel gulp-concat gulp-uglify gulp-sourcemaps gulp-rename
+```
