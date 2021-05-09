@@ -12,8 +12,10 @@ root project
 |   |--- fonts
 |  
 |-- resources
-|   |--- css
+|   |--- scss
+|        |--- style.scss
 |   |--- js
+         |--- index.js
 |   |--- images
 |   |--- fonts
 |
