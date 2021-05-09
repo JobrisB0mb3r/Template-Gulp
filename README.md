@@ -13,10 +13,13 @@ root project
 |  
 |-- resources
 |   |--- scss
-|        |--- style.scss
+|   |    |--- style.scss
+|   |
 |   |--- js
-         |--- index.js
+|   |    |--- main.js
+|   |
 |   |--- images
+|   |
 |   |--- fonts
 |
 |-- index.html
