@@ -17,7 +17,7 @@ var jalur = {
 };
 
 function styling() {
-    return gulp.src(jalur.style.src)
+    return gulp.src(jalur.style.src, { base: 'resources/scss' })
         .pipe(sourcemaps.init())
         .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(postcss([autoprefixer(), cssnano()]))
