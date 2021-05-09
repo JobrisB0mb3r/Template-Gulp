@@ -28,6 +28,7 @@ root project
 |-- gitignore
 
 ```
+**Notes:** Public folder is a folder that we define in our gulpfile.js. Whether you want to change or not, is up to you.
 
 ## DevDependencies
 **Requirements**
